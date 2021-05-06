@@ -3,7 +3,7 @@
 </script>
 
 <script lang="ts">
-	import { gql } from '@apollo/client/core';
+	import { gql } from '@apollo/client/core/core.cjs.js';
 	import { query } from 'svelte-apollo';
 
 	const posts = query<any, any>(gql`

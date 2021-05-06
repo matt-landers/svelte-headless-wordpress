@@ -10,7 +10,7 @@
 
 <script lang="ts">
 	export let slug;
-	import { gql } from '@apollo/client/core';
+	import { gql } from '@apollo/client/core/core.cjs.js';
 	import { query } from 'svelte-apollo';
 
 	const post = query<any, any>(
